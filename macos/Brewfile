@@ -1,14 +1,44 @@
-# Minimal tools already installed on this machine.
+# Development tools and essentials.
 
 # Shell, version control, and editor
 brew "fish"
 brew "git"
+brew "gh"
 brew "neovim"
+brew "micro"
+brew "tmux"
 
 # System monitoring
 brew "btop"
 
 # Navigation and search
+brew "bat"
 brew "fd"
 brew "ripgrep"
 brew "yazi"
+
+# JavaScript
+brew "node"
+brew "pnpm"
+
+# Python
+brew "uv"
+
+# Go
+brew "go"
+
+# Databases
+brew "sqlite"
+brew "postgresql"
+
+# macOS apps
+cask "kitty"
+cask "visual-studio-code"
+cask "aldente"
+cask "obsidian"
+cask "google-chrome"
+cask "rectangle"
+
+# Fonts
+cask "font-jetbrains-mono-nerd-font"
+cask "font-vazirmatn"
