@@ -1,0 +1,21 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+  },
+  "vscord.status.details.enabled": false,
+  "vscord.status.idle.timeout": 1000,
+  "vscord.status.buttons.button1.git.active.enabled": false,
+  "vscord.status.buttons.button1.git.inactive.enabled": false,
+  "window.zoomLevel": 1,
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.fontSize": 10,
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Dracula Theme",
+}

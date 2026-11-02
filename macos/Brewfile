@@ -1,0 +1,14 @@
+# Minimal tools already installed on this machine.
+
+# Shell, version control, and editor
+brew "fish"
+brew "git"
+brew "neovim"
+
+# System monitoring
+brew "btop"
+
+# Navigation and search
+brew "fd"
+brew "ripgrep"
+brew "yazi"

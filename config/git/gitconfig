@@ -1,0 +1,21 @@
+[init]
+	defaultBranch = main
+
+[core]
+	editor = nvim
+
+[diff]
+	colorMoved = default
+	tool = vscode
+
+[difftool "vscode"]
+	cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
+
+[merge]
+	tool = vscode
+
+[mergetool "vscode"]
+	cmd = code --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+
+[include]
+	path = ~/.gitconfig.local

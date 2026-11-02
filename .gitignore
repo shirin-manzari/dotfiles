@@ -1,0 +1,13 @@
+# Private machine-specific files
+/local/*
+!/local/.gitkeep
+.env
+.env.*
+!.env.example
+
+# OS and editor artifacts
+.DS_Store
+*.swp
+*.swo
+
+
