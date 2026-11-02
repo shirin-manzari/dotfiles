@@ -8,7 +8,7 @@
 set --global fish_color_autosuggestion ffd7ff
 set --global fish_color_cancel d20f39
 set --global fish_color_command ff0087
-set --global fish_color_comment 808080
+set --global fish_color_comment c1b5d6
 set --global fish_color_cwd df8e1d
 set --global fish_color_cwd_root
 set --global fish_color_end 00ffff

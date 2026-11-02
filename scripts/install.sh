@@ -49,6 +49,8 @@ link_config config/fish/functions/fish_prompt.fish "$config_home/fish/functions/
 link_config config/fish/functions/y.fish "$config_home/fish/functions/y.fish"
 link_config config/kitty/kitty.conf "$config_home/kitty/kitty.conf"
 link_config config/kitty/theme.conf "$config_home/kitty/theme.conf"
+link_config config/micro/settings.json "$config_home/micro/settings.json"
+link_config config/micro/colorschemes/pastel-comments.micro "$config_home/micro/colorschemes/pastel-comments.micro"
 link_config config/nvim/init.lua "$config_home/nvim/init.lua"
 
 case "$(uname -s)" in
