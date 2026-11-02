@@ -39,7 +39,6 @@ link_config() {
   fi
 }
 
-link_config config/zsh/zshrc "$HOME/.zshrc"
 link_config config/git/gitconfig "$HOME/.gitconfig"
 link_config config/fish/config.fish "$config_home/fish/config.fish"
 link_config config/fish/conf.d/preferences.fish "$config_home/fish/conf.d/preferences.fish"
