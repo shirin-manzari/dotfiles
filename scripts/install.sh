@@ -49,6 +49,7 @@ link_config config/fish/functions/fish_prompt.fish "$config_home/fish/functions/
 link_config config/fish/functions/y.fish "$config_home/fish/functions/y.fish"
 link_config config/kitty/kitty.conf "$config_home/kitty/kitty.conf"
 link_config config/kitty/theme.conf "$config_home/kitty/theme.conf"
+link_config config/nvim/init.lua "$config_home/nvim/init.lua"
 
 case "$(uname -s)" in
 	Darwin) vscode_user_dir="$HOME/Library/Application Support/Code/User" ;;
